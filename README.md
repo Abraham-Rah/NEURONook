@@ -29,10 +29,10 @@ source venv/bin/activate
 3) Install Required Packages
 pip install -r requirements.txt
 
-macOS
+**macOS**
 brew install ffmpeg
 
-Ubuntu
+**Ubuntu**
 sudo apt install ffmpeg
 
 4) 4. Run the Analyzer
