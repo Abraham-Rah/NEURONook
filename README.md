@@ -56,7 +56,7 @@ NEURONook/
     ├── visualization.py    # Animated sentiment/keyword plots
     └── word_visualization.py  # Word frequency plotting
 
-```bash
+```
 ---
 
 ! Ethical Use Disclaimer
