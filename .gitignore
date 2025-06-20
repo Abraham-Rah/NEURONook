@@ -1,0 +1,24 @@
+# Ignore virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Audio & media files
+*.mp3
+*.wav
+*.mp4
+
+# Output folders (but allow .gitkeep inside to preserve folder structure)
+audio_files/*
+!audio_files/.gitkeep
+
+transcripts/*
+!transcripts/.gitkeep
+
+analysis_results/*
+!analysis_results/.gitkeep
+
+visualizations/*
+!visualizations/.gitkeep
