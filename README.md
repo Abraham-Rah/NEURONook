@@ -40,18 +40,7 @@ python -m scripts.main audio_files/your_interview.mp3
 
 Project Structure: 
 
-NEURONook/
-├── audio_files/            # Place your input MP3 files here
-├── transcripts/            # Output transcripts with timestamps and sentiment
-├── analysis_results/       # JSON analysis + summaries files
-├── visualizations/         # Animated plots of sentiment/keyword trends
-└── scripts/                # Where the real work happens
-    ├── main.py             # Main pipeline runner
-    ├── transcriber.py      # Handles Whisper transcription
-    ├── analysis.py         # Sentiment, symptom, and theme analysis
-    ├── summary.py          # Summary report generator
-    ├── visualization.py    # Animated sentiment/keyword plots
-    └── word_visualization.py  # Word frequency plotting
+<pre> ```text Project Structure: NEURONook/ ├── audio_files/ # Place your input MP3 files here ├── transcripts/ # Output transcripts with timestamps and sentiment ├── analysis_results/ # JSON analysis + summaries files ├── visualizations/ # Animated plots of sentiment/keyword trends └── scripts/ # Where the real work happens ├── main.py # Main pipeline runner ├── transcriber.py # Handles Whisper transcription ├── analysis.py # Sentiment, symptom, and theme analysis ├── summary.py # Summary report generator ├── visualization.py # Animated sentiment/keyword plots └── word_visualization.py # Word frequency plotting ``` </pre>
 
 ! Ethical Use Disclaimer
 
