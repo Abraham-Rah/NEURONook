@@ -26,18 +26,18 @@ this tool streamlines the traditionally manual process of qualitative analysis.
 git clone https://github.com/yourusername/NEURONook.git
 cd NEURONook
 
-### 2. Create and Activate a Virtual Environment
+2. Create and Activate a Virtual Environment
 
 python -m venv venv
 source venv/bin/activate
 
-### 3. Install Required Packages
+3. Install Required Packages
 Install ffmpeg (required for audio handling)
 
-**macOS**
+macOS
 brew install ffmpeg
 
-**Ubuntu**
+Ubuntu
 sudo apt install ffmpeg
 
 4. Run the Analyzer
