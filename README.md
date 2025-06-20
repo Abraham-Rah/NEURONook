@@ -1,8 +1,7 @@
 # 🍋‍🟩 NEURONǒok – Qualitative Psychology Interview Analyzer 🥑
 
 NEURONǒok is a Python-based system for analyzing qualitative psychology interviews. It transcribes interview audio files, identifies psychological symptoms  
-and contextual themes, analyzes silence durations, and visualizes results using  
-sentiment and keyword trends. Designed with research and clinical utility in mind,  
+and contextual themes, analyzes silence durations, and visualizes results using sentiment and keyword trends. Designed with research and clinical utility in mind,  
 this tool streamlines the traditionally manual process of qualitative analysis.
 
 ---
