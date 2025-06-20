@@ -1,0 +1,11 @@
+# Core NLP and Transformers
+transformers>=4.41.1
+torch>=2.1.0
+torchaudio>=2.1.0
+
+# Sentiment & Tokenization
+nltk>=3.8.1
+
+# Visualization & Progress Bar
+matplotlib>=3.7.0
+tqdm>=4.66.0
