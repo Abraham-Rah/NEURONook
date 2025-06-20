@@ -15,7 +15,7 @@ Features
 - 📈 Animated Visualizations: (Sentiment + Keyword Trends)
 - 📝 Structured Summary Reports
 
-1) ## 🚀 Quick Start
+1) 🚀 Quick Start
 
 1. Clone the Repository
 git clone https://github.com/yourusername/NEURONook.git
