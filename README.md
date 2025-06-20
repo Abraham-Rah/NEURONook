@@ -56,6 +56,7 @@ NEURONook/
     ├── visualization.py    # Animated sentiment/keyword plots
     └── word_visualization.py  # Word frequency plotting
 
+---
 
 ! Ethical Use Disclaimer
 This tool is intended for educational or synthetic interview data only.
