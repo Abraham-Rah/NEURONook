@@ -48,36 +48,25 @@ def animate_analysis(base_name):
 
     # 3 panels now: sentiment proportions, compound, keywords
     fig, (ax_props, ax_comp, ax_kw) = plt.subplots(3, 1, figsize=(6, 10), sharex=True)
-
-    # Lines
     lines_props = {k: ax_props.plot([], [], label=k)[0] for k in sentiment_props}
     line_comp   = ax_comp.plot([], [], label="compound")[0]
     lines_kw    = {k: ax_kw.plot([], [], label=k)[0] for k in keywords}
-
-    # Sentiment proportions plot styling (0..1 scale)
     ax_props.set_title("Sentiment Proportions Over Time", fontsize=14, fontfamily="DejaVu Serif")
     ax_props.set_ylabel("Proportion", fontsize=12, fontfamily="DejaVu Serif")
     ax_props.set_ylim(0.0, 1.05)
     ax_props.grid(True, linestyle="--", linewidth=0.5, alpha=0.7)
     ax_props.legend(loc="upper left")
-
-    # Compound plot styling (-1..1 scale)
     ax_comp.set_title("Compound Sentiment Over Time", fontsize=14, fontfamily="DejaVu Serif")
     ax_comp.set_ylabel("Compound", fontsize=12, fontfamily="DejaVu Serif")
     ax_comp.set_ylim(-1.1, 1.1)
     ax_comp.grid(True, linestyle="--", linewidth=0.5, alpha=0.7)
     ax_comp.legend(loc="upper left")
-
-    # Keyword plot styling
     ax_kw.set_title("Keyword Counts Over Time", fontsize=14, fontfamily="DejaVu Serif")
     ax_kw.set_ylabel("Count", fontsize=12, fontfamily="DejaVu Serif")
     ax_kw.set_xlabel("Time", fontsize=12, fontfamily="DejaVu Serif")
-
     max_kw = max(max(v) for v in keywords.values()) or 1
     ax_kw.set_ylim(0, max_kw * 1.1)
     ax_kw.grid(True, linestyle="--", linewidth=0.5, alpha=0.7)
-
-    # Force legend ordering for keywords
     order   = ["Depression", "Hopelessness", "Anxiety", "ADHD", "Filler"]
     handles = [lines_kw[label] for label in order]
     ax_kw.legend(handles, order, loc="upper left")
